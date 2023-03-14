@@ -1,0 +1,110 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.first-block {
+    display: flex;
+    justify-content: space-around;
+    background-color: #668;
+    color: white;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    left: 40px;
+    top: 2rem;
+}
+
+.logo img {
+
+
+}
+
+    
+
+
+.nav-bar {
+    display: flex;
+    position: absolute;
+    top: 3.1rem;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.nav-bar ul li a {
+    margin: 0.2em;
+    padding: 0.4em;
+    text-align: center;
+    background-color: #1ABC9C;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.nav-bar a:hover {
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+    transition: all 1s;
+}
+
+
+.first-button {
+    display: flex;
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    align-items: center;
+}
+
+.first-button button {
+    display: flex;
+    padding: 0.5em;
+    margin: 5px;
+}
+
+.search-bar {
+
+}
+
+.container  {
+    display: grid;
+    grid-template-columns: 200px auto;
+    background-color: #ed2794;
+}
+
+.container .vertical-main {
+    background-color: #1ABC9C;
+}
+
+.container .galerie {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: max-content;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+footer {
+    padding: 10px 20px;
+    background: #668;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
